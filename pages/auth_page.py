@@ -1,10 +1,6 @@
-import time
-
 from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 from pages.home_page import HomePage
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.keys import Keys
 
 
 class AuthPage(BasePage):
